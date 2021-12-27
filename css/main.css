@@ -401,6 +401,13 @@ h1 img {
     background-blend-mode: overlay, normal;
     transition: all .2s;
 }
+.orange_but--first:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(-145%, #FFFFFF), color-stop(110%, rgba(255, 255, 255, 0))), -webkit-gradient(linear, right top, left top, color-stop(-89.33%, #FFE24D), color-stop(97%, #FF5631));
+    background: linear-gradient(180deg, #FFFFFF -145%, rgba(255, 255, 255, 0) 110%), linear-gradient(270deg, #757789 -89.33%, #2E2F37 97%);
+    /* background: linear-gradient(180deg, #FFFFFF -145%, rgba(255, 255, 255, 0) 110%), linear-gradient(270deg, #757789 -89.33%, #2E2F37 97%); */
+    background-blend-mode: overlay, normal;
+    transition: all .2s;
+}
 
 .header_content {
     background-color: #fff;
@@ -1128,6 +1135,79 @@ h2 i {
 
 .result_options__item:last-child {
     margin-right: 0;
+}
+
+.result_options__item--1 {
+    background-image: url(../img/options/plasterer/1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.result_options__item--2 {
+    background-image: url(../img/options/plasterer/2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.result_options__item--3 {
+    background-image: url(../img/options/plasterer/3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.result_options__item--4 {
+    background-image: url(../img/options/plasterer/4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.result_options__item--5 {
+    background-image: url(../img/options/combo/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.result_options__item--6 {
+    background-image: url(../img/options/combo/2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.result_options__item--7 {
+    background-image: url(../img/options/combo/3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.result_options__item--8 {
+    background-image: url(../img/options/combo/4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.result_options__item--9 {
+    background-image: url(../img/options/stone/1.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.result_options__item--10 {
+    background-image: url(../img/options/stone/2.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.result_options__item--11 {
+    background-image: url(../img/options/stone/3.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.result_options__item--12 {
+    background-image: url(../img/options/stone/4.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .result_options__desc {
@@ -2865,7 +2945,7 @@ input {
 
 .video_recommendation {
     position: relative;
-    
+    margin-bottom: -150px;
 }
 
 .video_recommendation__inner {
@@ -2904,9 +2984,36 @@ input {
     background-color: #3F3F4C;
 }
 
+.video_recommendation__item--1 {
+    background-image: url(../img/recommendation/1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.video_recommendation__item--2 {
+    background-image: url(../img/recommendation/2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.video_recommendation__item--3 {
+    background-image: url(../img/recommendation/3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* .footer_color {
     background-color: #fff;
 } */
+
+.footer_section__color {
+    background-color: #fff;
+    margin-bottom: -70px;
+    padding-bottom: 50px;
+}
 
 .footer_section {
     background-image: url(../img/bg_footer.png);
@@ -2917,6 +3024,7 @@ input {
     position: relative;
     z-index: 100;
     padding-bottom: 70px;
+    
 }
 
 .footer_section h2 {
