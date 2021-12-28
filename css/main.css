@@ -409,6 +409,14 @@ h1 img {
     transition: all .2s;
 }
 
+.header_h {
+    background-color: #fff;
+    max-width: 1840px;
+    margin-top: -20px;
+    padding: 20px 30px;
+    border-radius: 40px;
+}
+
 .header_content {
     background-color: #fff;
     max-width: 1840px;

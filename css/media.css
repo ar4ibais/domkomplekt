@@ -1,3 +1,11 @@
+@media screen and (max-width:1920px) {
+    .intro_section {
+        padding-top: 180px;
+        padding-bottom: 280px;
+        position: relative;
+    }
+}
+
 @media screen and (max-width:1680px) {
     .top_list {
     width: 700px;
