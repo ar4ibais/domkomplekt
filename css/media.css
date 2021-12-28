@@ -116,7 +116,7 @@
 
 @media screen and (max-width:1280px) {
     .intro_section.vis::before {
-        bottom: -90px;
+        bottom: -30px;
     }
 }
 
@@ -254,7 +254,7 @@ p.mars_green {
         font-size: 20px;
     }
     .intro_section.vis::before {
-        bottom: -10px;
+        bottom: -70px;
     }
     .popular__items {
         grid-template-columns: repeat(2, 1fr);

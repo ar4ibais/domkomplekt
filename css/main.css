@@ -209,7 +209,7 @@ button {
     background-repeat: no-repeat;
     pointer-events: none;
     height: 388px;
-    bottom: -470px;
+    bottom: -15px;
     background-position: calc(50% + 30px) 0;
     -webkit-transition: 0.8s ease;
     transition: 0.8s ease;
