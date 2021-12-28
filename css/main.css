@@ -159,6 +159,7 @@ ul {
 .container {
     width: 100%;
     max-width: 1160px;
+    margin: 0 auto;
 }
 
 button {
@@ -945,7 +946,7 @@ h2 i {
 .popular__btn-link {
     color: inherit;
     text-transform: uppercase;
-    padding: 19px 117px;
+    padding: 19px 110px;
     border-radius: 25px;
     font-family: Gilroy;
     font-style: normal;
