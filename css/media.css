@@ -284,6 +284,9 @@ p.mars_green {
 }
 
 @media screen and (max-width:991px) {
+    .bg-image {
+        margin-bottom: -215px;
+    }
     .nopadl {
         padding-left: 15px;
     }
@@ -770,7 +773,62 @@ ul.top_list li {
         width: 40px;
     }
 }
-@media screen and (max-width:767px) {
+
+@media screen and (max-width:768px) {
+    .bg-image {
+        margin-bottom: -215px;
+    }
+    p.after_h1 {
+        display: none;
+    }
+    .open_nav {
+        margin-left: 60px;
+    }
+    .under_h1 span {
+        margin-top: 30px;
+    }
+    .orange_but--first {
+        margin-top: 60px;
+    }
+    .intro_section.vis::before {
+        bottom: -50px;
+    }
+    .compare_title {
+        margin-top: 150px;
+    }
+    .compare1 {
+        margin-top: 50px;
+    }
+    .layer_title {
+        margin-top: -150px;
+    }
+    .plan_flex {
+        margin-left: -200px;
+    }
+    .poliv2_content {
+        display: none;
+    }
+    .application {
+        margin-top: 490px;
+    }
+    .application__btn {
+        padding: 10px 27px;
+        margin-top: 15px;
+    }
+    .result_section {
+        margin-bottom: -150px;
+    }
+    .auto_poliv2 {
+        margin-top: -200px!important;
+    }
+    .footer_section h2 {
+        margin-bottom: 90px!important;
+    }
+    .video_recommendation__subtitle {
+        margin-bottom: -30px;
+    }
+}
+@media screen and (max-width:768px) {
     .noxs {
         display: none
     }
@@ -887,9 +945,9 @@ p.type_lbl {
 .floating_lines_wrp2 > div span {
 }
 
-.video_area_flex h2, .video_area_flex h2 i {
+/* .video_area_flex h2, .video_area_flex h2 i {
     color: black;
-}
+} */
 
 .hydro_section h2 i {
     display: block;
@@ -1420,9 +1478,50 @@ ul.top_soc {
     justify-content: space-between;
     max-width: 160px;
     margin-top: 30px;
-}
+} 
+
 
 .top_list .mobile_social li a::after, .top_list .mobile_social li a::before {
     display: none;
 }
+}
+
+@media screen and (max-width:480px) {
+    .popular__items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .orange_but--first {
+        margin-left: 40px;
+    }
+    .compare_section h2 {
+        margin-top: 30px;
+    }
+    .layer_title {
+        margin-top: -110px!important;
+    }
+    .layer_text {
+        font-size: 16px!important;
+        margin-top: -20px!important;
+        padding-bottom: 50px!important;
+    }
+    .plan_flex {
+        margin-left: 0;
+    }
+    .application__title {
+        font-size: 19px;
+    }
+    .application {
+        margin-bottom: 30px;
+    }
+    .video_recommendation__subtitle {
+        margin-bottom: 0;
+        font-size: 17px;
+    }
+    .video_recommendation__list {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+    }
+    .video_recommendation {
+        margin-bottom: -200px;
+    }
 }

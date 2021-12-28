@@ -210,7 +210,7 @@ button {
     background-repeat: no-repeat;
     pointer-events: none;
     height: 388px;
-    bottom: -15px;
+    bottom: -470px;
     background-position: calc(50% + 30px) 0;
     -webkit-transition: 0.8s ease;
     transition: 0.8s ease;
@@ -424,6 +424,7 @@ h1 img {
     margin-top: -20px;
     padding: 20px 30px;
     border-radius: 40px;
+    margin: 0 auto;
 }
 .bg-image {
     background-image: url(../img/bg.jpg);
