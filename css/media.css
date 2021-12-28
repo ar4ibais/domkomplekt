@@ -6,6 +6,14 @@
     }
 }
 
+@media screen and (min-height:1200px) {
+    .intro_section {
+        padding-top: 220px;
+        padding-bottom: 370px;
+        position: relative;
+    }
+}
+
 @media screen and (max-width:1680px) {
     .top_list {
     width: 700px;
@@ -25,7 +33,55 @@
         max-width: 230px;
     }
 }
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1440px) {
+    .h1 {
+        font-size: 80px;
+    }
+    .h1 span {
+        font-size: 25px;
+        line-height: 38px;
+        top: 95px;
+        left: 218px;
+    }
+    .after_h1 span {
+        font-size: 22px;
+        margin-left: 26px;
+    }
+    .under_h1 {
+        font-size: 20px;
+    }
+    .text_span1,
+    .text_span2 {
+        padding: 8px 12px;
+    }
+    .intro_section.vis::before {
+        bottom: -25px;
+    }
+
+    .over_nav {
+        -webkit-box-flex: inherit;
+        -ms-flex: inherit;
+        flex: inherit;
+    }
+
+    ul.top_list {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        width: 400px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    
+    ul.top_list li {
+        margin: 2px 13px;
+    }
+    .application__image {
+        display: none;
+    }
+    .application__inner {
+        justify-content: center;
+    }
     .recall {
     width: 165px;
     }
@@ -57,6 +113,13 @@
         padding-left: 106px;
     }
 }
+
+@media screen and (max-width:1280px) {
+    .intro_section.vis::before {
+        bottom: -90px;
+    }
+}
+
 @media screen and (max-width:1250px) {
     a.logo img {
     max-width: 200px;
@@ -177,6 +240,49 @@ p.mars_green {
         bottom: -2px
     }
 }
+
+@media screen and (max-width:1024px) {
+    .h1 {
+        font-size: 70px;
+    }
+    .h1 span {
+        line-height: 30px;
+        top: 87px;
+        left: 195px;
+    }
+    p.under_h1 {
+        font-size: 20px;
+    }
+    .intro_section.vis::before {
+        bottom: -10px;
+    }
+    .popular__items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .over_case_wrp::before {
+        display: none;
+    }
+    .auto_poliv::before, 
+    .auto_poliv2::before {
+        display: none;
+    }
+    .plan_flex,
+    .poliv2_flex {
+        padding-left: 0px;
+        padding-top: 50px;
+        margin-left: -80px;
+    }
+    .poliv2_flex {
+        margin-left: -120px;
+    }
+    .poliv2_form1 {
+        margin-left: -300px;
+    } 
+    /* .video_recommendation__item {
+        width: 300px;
+    } */
+}
+
 @media screen and (max-width:991px) {
     .nopadl {
         padding-left: 15px;

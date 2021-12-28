@@ -905,6 +905,9 @@ h2 i {
 .popular__image {
     margin-bottom: 24px;
 }
+.popular_img {
+    width: 100%;
+}
 
 .popular__text {
     font-family: Igra Sans;
@@ -2981,14 +2984,18 @@ input {
 }
 
 .video_recommendation__list {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    padding-bottom: 377px;
+    padding-bottom: 377px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    padding-bottom: 380px;
 }
 
 .video_recommendation__item {
     height: 228px;
-    width: 360px;
+    max-width: 360px;
     background-color: #3F3F4C;
 }
 
