@@ -1530,9 +1530,7 @@ ul.top_soc {
     }
     .orange_but--first {
         width: 260px;
-        margin-top: 77px;
-        margin-left: 50%;
-        transform: translate(-50%);
+        margin: 77px auto 0;
     }
     .text_span1 {
         margin-top: 40px!important;
@@ -1563,9 +1561,7 @@ ul.top_soc {
     }
     .orange_but--first {
         width: 260px;
-        margin-top: 77px;
-        margin-left: 50%;
-        transform: translate(-50%);
+        margin: 77px auto 0;
     }
     .text_span1 {
         margin-top: 40px!important;
