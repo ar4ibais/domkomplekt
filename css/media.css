@@ -4,6 +4,13 @@
         padding-bottom: 280px;
         position: relative;
     }
+    .top_list li {
+        margin-right: 36px;
+        white-space: pre-line;
+    }
+    .intro_section.vis::before {
+        bottom: 0px;
+    }
 }
 
 @media screen and (min-height:1200px) {
@@ -112,6 +119,23 @@
     .cont_top {
         padding-left: 106px;
     }
+    .auto_poliv::before, 
+    .auto_poliv2::before {
+        display: none;
+    }
+    .plan_flex,
+    .poliv2_flex {
+        padding-left: 0px;
+        padding-top: 50px;
+        margin-left: -80px;
+    }
+    .poliv2_form1 {
+        margin-left: -290px;
+    } 
+    .go_next,
+    .go_prev {
+        display: none;
+    }
 }
 
 @media screen and (max-width:1360px) {
@@ -133,6 +157,9 @@
 @media screen and (max-width:1280px) {
     .intro_section.vis::before {
         bottom: -30px;
+    }
+    .over_case_wrp::before {
+        display: none;
     }
 }
 
@@ -1464,10 +1491,10 @@ ul.top_soc {
 	display: none
 }
     
-.about_img1 {
+/* .about_img1 {
     height: 250px;
     width: 180px;
-}
+} */
     .case_num_ttle {
     font-size: 14px;
     height: 60px;

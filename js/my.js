@@ -375,14 +375,14 @@ $('a[href^="#"]').click(function( event ) {
 
     
 for(var x = 1;x<100;x++){
-    $('.line_float1').not('.text2').append('<span>Вы в одном шаге от дома мечты</span><span>новый дом за 4 месяца</span>')
-    $('.line_float2').not('.text2').append('<span>Вы в одном шаге от дома мечты</span><span>новый дом за 4 месяца</span>')
+    $('.line_float1').not('.text2').append('<span>Вы в одном шаге от дома мечты</span><span>новый дом за 4 месяца</span><span>Вы в одном шаге от дома мечты</span><span>новый дом за 4 месяца</span><span>Вы в одном шаге от дома мечты</span><span>новый дом за 4 месяца</span>')
+    $('.line_float2').not('.text2').append('<span>Вы в одном шаге от дома мечты</span><span>новый дом за 4 месяца</span><span>Вы в одном шаге от дома мечты</span><span>новый дом за 4 месяца</span><span>Вы в одном шаге от дома мечты</span><span>новый дом за 4 месяца</span>')
 
-    $('.line_float3.text2').append('<span>Бесплатная 3D визуализация</span><span>Бесплатная 3D визуализация</span>')
-    $('.line_float4.text2').append('<span>Бесплатная 3D визуализация</span><span>Бесплатная 3D визуализация</span>')
+    $('.line_float3.text2').append('<span>Бесплатная 3D визуализация</span><span>Бесплатная 3D визуализация</span><span>Бесплатная 3D визуализация</span><span>Бесплатная 3D визуализация</span><span>Бесплатная 3D визуализация</span><span>Бесплатная 3D визуализация</span>')
+    $('.line_float4.text2').append('<span>Бесплатная 3D визуализация</span><span>Бесплатная 3D визуализация</span><span>Бесплатная 3D визуализация</span><span>Бесплатная 3D визуализация</span><span>Бесплатная 3D визуализация</span><span>Бесплатная 3D визуализация</span>')
         
-    $('.line_float1.text2').append('<span>Гарантия <i>на</i> Фасад 5 лет</span>')
-    $('.line_float2.text2').append('<span>Гарантия <i>на</i> Фасад 5 лет</span>')
+    $('.line_float1.text2').append('<span>Гарантия <i>на</i> Фасад 5 лет</span><span>Гарантия <i>на</i> Фасад 5 лет</span><span>Гарантия <i>на</i> Фасад 5 лет</span>')
+    $('.line_float2.text2').append('<span>Гарантия <i>на</i> Фасад 5 лет</span><span>Гарантия <i>на</i> Фасад 5 лет</span><span>Гарантия <i>на</i> Фасад 5 лет</span>')
 }
 
 
@@ -390,7 +390,7 @@ var value = 0;
 setInterval(function(){
     value=value-1;
     $('.line_float1').css('transform','rotate(7.25deg) translatex('+value+'px)')
-},1000/60)  
+},1400/60)  
     
 var value2 = 0;
 setInterval(function(){
@@ -402,7 +402,7 @@ var value = 0;
 setInterval(function(){
     value=value-1;
     $('.line_float3').css('transform','rotate(7.25deg) translatex('+value+'px)')
-},1000/60)  
+},1400/60)  
     
 var value2 = 0;
 setInterval(function(){

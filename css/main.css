@@ -403,8 +403,8 @@ h1 img {
     transition: all .2s;
 }
 .orange_but--first:hover {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(-145%, #FFFFFF), color-stop(110%, rgba(255, 255, 255, 0))), -webkit-gradient(linear, right top, left top, color-stop(-89.33%, #757789), color-stop(97%, #2E2F37));
-    background: linear-gradient(180deg, #FFFFFF -145%, rgba(255, 255, 255, 0) 110%), linear-gradient(270deg, #757789 -89.33%, #2E2F37 97%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(-145%, #FFFFFF), color-stop(110%, rgba(255, 255, 255, 0))), -webkit-gradient(linear, right top, left top, color-stop(-89.33%, #FFE24D), color-stop(97%, #FF5631));
+    background: linear-gradient(180deg, #FFFFFF -145%, rgba(255, 255, 255, 0) 110%), linear-gradient(270deg, #FFE24D -89.33%, #FF5631 97%);
     /* background: linear-gradient(180deg, #FFFFFF -145%, rgba(255, 255, 255, 0) 110%), linear-gradient(270deg, #757789 -89.33%, #2E2F37 97%); */
     background-blend-mode: overlay, normal;
     transition: all .2s;
@@ -421,8 +421,8 @@ h1 img {
 .header_content {
     background-color: #fff;
     max-width: 1840px;
-    margin-top: -20px;
-    padding: 20px 30px;
+    margin-top: -30px;
+    padding: 15px 30px;
     border-radius: 40px;
     margin: 0 auto;
 }
@@ -450,7 +450,7 @@ h1 img {
     background-repeat: no-repeat;
     background-position: top center;
     position: relative;
-    min-height: 1764px;
+    min-height: 1500px;
     position: relative;
     z-index: 10;
     padding-top: 240px;
@@ -476,7 +476,7 @@ h1 img {
     position: absolute;
     left: 0;
     width: 100%;
-    top: -33px;
+    top: -36px;
     height: 370px;
     pointer-events: none;
     z-index: 10;
@@ -729,6 +729,7 @@ h2 i {
 .video_area_flex h2 {
     font-size: 38px;
     line-height: 100%;
+    margin-top: -95px;
     
 }
 
@@ -978,6 +979,7 @@ h2 i {
     color: #2E2F37;
     /* border-bottom: 2px solid #FBBA00;  */
     transition: all .2s;
+    margin-bottom: -150px;
 }
 
 /* .popular_more:hover {
@@ -1252,7 +1254,7 @@ h2 i {
 }
 
 .result__btn {
-    max-width: 170px;
+    max-width: 230px;
     margin-bottom: 115px;
 }
 
@@ -1304,6 +1306,7 @@ h2 i {
     position: absolute;
     z-index: 100;
     left: -130px;
+    padding-left: 10px;
 }
 
 .go_next {
@@ -1321,6 +1324,7 @@ h2 i {
     cursor: pointer;
     z-index: 100;
     right: -140px;
+    padding-right: 10px;
 }
 
 .go_prev:hover,
@@ -1904,6 +1908,7 @@ input {
     z-index: -1;
     left: -70px;
     bottom: -80px;
+    display: none;
 }
 
 .hydro_types::before {
@@ -1950,7 +1955,7 @@ input {
 
 .result_section h2 {
     margin-bottom: 70px;
-    
+    margin-top: -30px;
 }
 
 .scroll_ttle {
@@ -1972,7 +1977,7 @@ input {
     padding-left: 95px;
     background-repeat: no-repeat;
     background-image: url(../img/line_step.svg);
-    height: 484px;
+    height: 350px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2111,7 +2116,7 @@ input {
     padding-top: 478px;
     background-position: top center;
     min-height: 1254px;
-    margin-top: -540px;
+    margin-top: -1055px;
 }
 .auto_poliv2 {
     position: relative;
@@ -2120,7 +2125,7 @@ input {
     padding-top: 478px;
     background-position: top center;
     min-height: 1254px;
-    margin-top: -540px;
+    margin-top: -560px;
 }
 
 .plan_flex {
@@ -2205,13 +2210,15 @@ input {
     margin-left: 0px;
     pointer-events: none;
     position: absolute;
-    left: 0px;
-    top: 0;
-    width: 100%;
+    left: 165px;
+    top: 295px;
+    /* width: 100%; */
+    width: 705px;
     height: 100%;
     background-repeat: no-repeat;
     background-image: url(../img/poliv_ufo.png);
-    background-position: calc(50% - 500px) 670px;
+    /* background-position: calc(50% - 500px) 670px; */
+    background-position: center;
     -webkit-animation: float 6s ease-in-out infinite;
     animation: float 6s ease-in-out infinite;
 }
@@ -2222,13 +2229,14 @@ input {
     margin-left: 0px;
     pointer-events: none;
     position: absolute;
-    left: 0px;
-    top: 0;
-    width: 100%;
+    left: 20px;
+    top: 720px;
+    /* width: 100%; */
+    width: 705px;
     height: 100%;
     background-repeat: no-repeat;
     background-image: url(../img/poliv_ufo2.png);
-    background-position: calc(50% - 500px) 670px;
+    /* background-position: calc(50% - 500px) 670px; */
     -webkit-animation: float 6s ease-in-out infinite;
     animation: float 6s ease-in-out infinite;
 }
@@ -2796,12 +2804,12 @@ input {
     margin-top: -80px;
     overflow: hidden;
     background-repeat: no-repeat;
-    background-image: url(../img/about_bg.png);
+    /* background-image: url(../img/about_bg.png); */
     background-position: calc(50% - 810px) calc(100% + 25px);
 }
 
 .team_section h2 {
-    margin-bottom: 76px;
+    margin-bottom: -20px;
 }
 
 .about_all_wrp {
@@ -2943,7 +2951,7 @@ input {
 }
 
 .wa_row {
-    margin-top: 160px;
+    margin-top: 175px;
 }
 
 .wa_row h2 {
@@ -2971,13 +2979,14 @@ input {
 
 .video_recommendation {
     position: relative;
-    margin-bottom: -150px;
+    margin-bottom: 60px;
 }
 
 .video_recommendation__inner {
     display: flex;
     position: relative;
     margin-bottom: 70px;
+    margin-top: -65px;
 }
 
 .video_recommendation__span {
@@ -3005,7 +3014,7 @@ input {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
-    padding-bottom: 380px;
+    /* padding-bottom: 380px; */
 }
 
 .video_recommendation__item {
@@ -3040,7 +3049,8 @@ input {
 } */
 
 .footer_section__color {
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: #F4F4F4;
     margin-bottom: -70px;
     padding-bottom: 50px;
 }
@@ -3226,7 +3236,9 @@ header {
     width: 100%;
     -webkit-transition: 0.3s, width 0s;
     transition: 0.3s, width 0s;
-    padding-top: 40px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .head_flex {
@@ -3406,9 +3418,9 @@ header .container {
     align-items: center;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     position: absolute;
-    left: 0;
+    left: 10px;
     top: calc(50% - 20px);
 }
 
@@ -3456,7 +3468,7 @@ header .container {
 }
 
 .fixMe {
-    padding: 15px 0;
+    padding: 10px 0;
     background-color: #fff;
     -webkit-box-shadow: 1px 11px 66px rgb(29 29 29 / 6%);
     box-shadow: 1px 11px 66px rgb(29 29 29 / 12%);
