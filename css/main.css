@@ -3021,6 +3021,21 @@ input {
     height: 228px;
     max-width: 360px;
     background-color: #3F3F4C;
+    position: relative;
+}
+
+.video_recommendation__item::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/play.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 65px;
+    left: 130px;
+    z-index: 20;
 }
 
 .video_recommendation__item--1 {
