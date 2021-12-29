@@ -403,7 +403,7 @@ h1 img {
     transition: all .2s;
 }
 .orange_but--first:hover {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(-145%, #FFFFFF), color-stop(110%, rgba(255, 255, 255, 0))), -webkit-gradient(linear, right top, left top, color-stop(-89.33%, #FFE24D), color-stop(97%, #FF5631));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(-145%, #FFFFFF), color-stop(110%, rgba(255, 255, 255, 0))), -webkit-gradient(linear, right top, left top, color-stop(-89.33%, #757789), color-stop(97%, #2E2F37));
     background: linear-gradient(180deg, #FFFFFF -145%, rgba(255, 255, 255, 0) 110%), linear-gradient(270deg, #757789 -89.33%, #2E2F37 97%);
     /* background: linear-gradient(180deg, #FFFFFF -145%, rgba(255, 255, 255, 0) 110%), linear-gradient(270deg, #757789 -89.33%, #2E2F37 97%); */
     background-blend-mode: overlay, normal;
@@ -906,6 +906,7 @@ h2 i {
 
 .popular__image {
     margin-bottom: 24px;
+    cursor: pointer;
 }
 .popular_img {
     width: 100%;
@@ -942,6 +943,13 @@ h2 i {
     display: flex;
     justify-content: center;
     margin-bottom: 60px;
+    transition: all .2s;
+}
+
+.popular__btn:hover {
+    background-color: #FF5631;
+    color: #fff;
+    border-radius: 25px;
 }
 
 .popular__btn-link {
@@ -961,15 +969,20 @@ h2 i {
     max-width: 250px;
     display: block;
     margin: 0 auto;
-    padding-bottom: 12px;
+    padding-bottom: 12px; 
     font-family: Gilroy;
     font-style: normal;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 22px!important;
     line-height: 22px;
     color: #2E2F37;
-    border-bottom: 2px solid #FBBA00;
+    /* border-bottom: 2px solid #FBBA00;  */
+    transition: all .2s;
 }
+
+/* .popular_more:hover {
+    border: 2px solid #FBBA00;
+} */
 
 .hydro_section {
     padding-top: 15px;
@@ -997,7 +1010,7 @@ h2 i {
     position: absolute;
     background-image: url(../img/planet2.png);
     background-repeat: no-repeat;
-    width: 238px;
+    width: 315px;
     height: 245px;
     right: -130px;
     top: -50px;

@@ -114,6 +114,22 @@
     }
 }
 
+@media screen and (max-width:1360px) {
+    .auto_poliv::before, 
+    .auto_poliv2::before {
+        display: none;
+    }
+    .plan_flex,
+    .poliv2_flex {
+        padding-left: 0px;
+        padding-top: 50px;
+        margin-left: -80px;
+    }
+    .poliv2_form1 {
+        margin-left: -290px;
+    } 
+}
+
 @media screen and (max-width:1280px) {
     .intro_section.vis::before {
         bottom: -30px;

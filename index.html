@@ -40,11 +40,11 @@
                                      <li><a href="#d5">Возведение фундамента</a></li>
                                      <li><a href="#d6">Контакты</a></li>
      
-                                     <li class="mobile_social">
-                                         <a href=""><img src="img/soc1.svg" alt=""></a>
+                                     <!-- <li class="mobile_social">
+                                      <a href=""><img src="img/soc1.svg" alt=""></a>
                                       <a href=""><img src="img/soc2.svg" alt=""></a>
                                       <a href=""><img src="img/soc3.svg" alt=""></a>
-                                     </li>
+                                     </li> -->
                                 </ul>
                             </div>
                             <div class="cont_area_top">
@@ -186,7 +186,7 @@
         </div>
     </section>
 
-    <section class="popular">
+    <section class="popular" id="d2">
         <div class="container">
             <h2 class="popular__title">
                 Наши самые <br>
@@ -195,7 +195,7 @@
             <div class="popular__items">
                 <div class="popular__item">
                     <div class="popular__image">
-                        <img class="popular_img" src="img/popular/1.png" alt="Дом">
+                        <img data-fancybox class="popular_img" src="img/popular/1.png" alt="Дом">
                     </div>
                     <div class="popular__text">
                         <p>Дом 94 м2</p>
@@ -212,7 +212,7 @@
                 </div>
                 <div class="popular__item">
                     <div class="popular__image">
-                        <img class="popular_img" src="img/popular/2.png" alt="Дом">
+                        <img data-fancybox class="popular_img" src="img/popular/2.png" alt="Дом">
                     </div>
                     <div class="popular__text">
                         <p>Дом 94 м2</p>
@@ -229,7 +229,7 @@
                 </div>
                 <div class="popular__item">
                     <div class="popular__image">
-                        <img class="popular_img" src="img/popular/3.png" alt="Дом">
+                        <img data-fancybox class="popular_img" src="img/popular/3.png" alt="Дом">
                     </div>
                     <div class="popular__text">
                         <p>Дом 94 м2</p>
@@ -246,7 +246,7 @@
                 </div>
                 <div class="popular__item">
                     <div class="popular__image">
-                        <img class="popular_img" src="img/popular/4.png" alt="Дом">
+                        <img data-fancybox class="popular_img" src="img/popular/4.png" alt="Дом">
                     </div>
                     <div class="popular__text">
                         <p>Дом 94 м2</p>
@@ -263,7 +263,7 @@
                 </div>
                 <div class="popular__item">
                     <div class="popular__image">
-                        <img class="popular_img" src="img/popular/5.png" alt="Дом">
+                        <img data-fancybox class="popular_img" src="img/popular/5.png" alt="Дом">
                     </div>
                     <div class="popular__text">
                         <p>Дом 94 м2</p>
@@ -280,7 +280,7 @@
                 </div>
                 <div class="popular__item">
                     <div class="popular__image">
-                        <img class="popular_img" src="img/popular/6.png" alt="Дом">
+                        <img data-fancybox class="popular_img" src="img/popular/6.png" alt="Дом">
                     </div>
                     <div class="popular__text">
                         <p>Дом 94 м2</p>
@@ -296,13 +296,18 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="popular__more">Показать больше домов</a>
+            <!-- <div class="popular__more-btn">
+                <a href="#" class="popular__more">Показать больше домов</a>
+            </div> -->
+            <ul class="top_list popular__more">
+                <li><a class="popular__more" href="#">Показать больше домов</a></li>
+            </ul>
         </div>
     </section>
     
     <section class="hydro_section">
         <div class="container">
-            <div class="row" id="d2">
+            <div class="row">
                 <div class="col-md-12">
                     <h2 class="project-title">Построенные нами <br>
                         дома славятся во <br>
@@ -718,7 +723,7 @@
         </div>
     </section>
 
-    <section class="hydro_types">
+    <section class="hydro_types" id="d3">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -826,7 +831,7 @@
         </div>
     </section>
     
-    <section class="result_section">
+    <section class="result_section" id="d5">
        <div class="flyer_img"></div>
         <div class="container">
             <div class="row">
@@ -898,7 +903,7 @@
        <div class="floating_lines_wrp"><div class="line_float1 text2"></div></div>
         <div class="floating_lines_wrp2"><div class="line_float2 text2"></div></div>
         <div class="container">
-            <div class="row" id="d3">
+            <div class="row">
                 <div class="col-md-12">
                     <h2>Подберите красивый <br>
                         фасад для вашего <br>
@@ -932,7 +937,7 @@
             </div>
         </div>
     </section>
-    <div class="result2">
+    <div class="result2" id="d4">
         <section class="result_section">
             <div class="flyer_img"></div>
              <div class="container">
@@ -964,10 +969,10 @@
                                 </p>
                                 <p class="result_options__title">Варианты отделки:</p>
                                 <div class="result_options__items">
-                                    <div class="result_options__item result_options__item--1"></div>
-                                    <div class="result_options__item result_options__item--2"></div>
-                                    <div class="result_options__item result_options__item--3"></div>
-                                    <div class="result_options__item result_options__item--4"></div>
+                                    <div data-fancybox href="img/options/plasterer/1.jpeg" class="result_options__item result_options__item--1"></div>
+                                    <div data-fancybox href="img/options/plasterer/2.jpeg" class="result_options__item result_options__item--2"></div>
+                                    <div data-fancybox href="img/options/plasterer/3.jpeg" class="result_options__item result_options__item--3"></div>
+                                    <div data-fancybox href="img/options/plasterer/4.jpeg" class="result_options__item result_options__item--4"></div>
                                 </div>
                                 <p class="result_options__desc">
                                     Получите <span class="result_options__span">полный каталог</span> <br>
@@ -993,10 +998,10 @@
                                 </p>
                                 <p class="result_options__title">Варианты отделки:</p>
                                 <div class="result_options__items">
-                                    <div class="result_options__item result_options__item--5"></div>
-                                    <div class="result_options__item result_options__item--6"></div>
-                                    <div class="result_options__item result_options__item--7"></div>
-                                    <div class="result_options__item result_options__item--8"></div>
+                                    <div data-fancybox href="img/options/combo/1.png" class="result_options__item result_options__item--5"></div>
+                                    <div data-fancybox href="img/options/combo/2.png" class="result_options__item result_options__item--6"></div>
+                                    <div data-fancybox href="img/options/combo/3.png" class="result_options__item result_options__item--7"></div>
+                                    <div data-fancybox href="img/options/combo/4.png" class="result_options__item result_options__item--8"></div>
                                 </div>
                                 <p class="result_options__desc">
                                     Получите <span class="result_options__span">полный каталог</span> <br>
@@ -1014,10 +1019,10 @@
                                 </p>
                                 <p class="result_options__title">Варианты отделки:</p>
                                 <div class="result_options__items">
-                                    <div class="result_options__item result_options__item--9"></div>
-                                    <div class="result_options__item result_options__item--10"></div>
-                                    <div class="result_options__item result_options__item--11"></div>
-                                    <div class="result_options__item result_options__item--12"></div>
+                                    <div data-fancybox href="img/options/stone/1.JPG" class="result_options__item result_options__item--9"></div>
+                                    <div data-fancybox href="img/options/stone/2.JPG" class="result_options__item result_options__item--10"></div>
+                                    <div data-fancybox href="img/options/stone/3.JPG" class="result_options__item result_options__item--11"></div>
+                                    <div data-fancybox href="img/options/stone/4.JPG" class="result_options__item result_options__item--12"></div>
                                 </div>
                                 <p class="result_options__desc">
                                     Получите <span class="result_options__span">полный каталог</span> <br>
@@ -1373,7 +1378,7 @@
     
     <section class="rev_video">
         <div class="container">
-            <div class="row" id="d5">
+            <div class="row">
                 <div class="col-md-12">
                     <h2>Видео-ответы <br>на часто задаваемые вопросы</h2>
                 </div>
