@@ -163,7 +163,7 @@
                 </div>
             </div>
             
-            <div class="row flex video_area_flex">
+            <div class="row flex video_area_flex layer__part">
                 <div class="col-md-5 col-sm-6 col-xs-12 layer-desc">
                     <h2 class="layer_title">Юридическое <br>
                         сопровождение работ</h2>   
@@ -1299,7 +1299,7 @@
                             <div class="plan_forma_wrp">
                                 <div class="form_flex">
                                     <input type="text" placeholder="+7 (" name="phone" maxlength="18">
-                                    <button class="orange_but">оставить заявку</button>
+                                    <button class="orange_but" data-toggle='modal' data-target='#thanks'>оставить заявку</button>
                                 </div>
                                 <p class="pressing pressed">Нажимая на кнопку “Получить план” вы даёте согласие  <br>на обработку <span>персональных данных</span></p>
                             </div>
@@ -1651,6 +1651,27 @@
   </div>
 </div>
     <div class="modal fade" id="recall" tabindex="-1" role="dialog">
+  <div class="modal-dialog normal_modal" role="document">
+    <div class="modal_wrp">
+        <div class="closemod" data-dismiss="modal"><img src="img/close.svg" alt=""></div>
+        <div class="modal_hd">
+            <div class="modal_sale_text">
+                <p>Заказать звонок</p>
+                <span>Оставьте заявку и мы перезвоним<br> Вам в ближайшее время</span>
+            </div>
+        </div>
+        <div class="modal_body_in">
+            <form>
+                <input type="hidden" name="wf" value="Обратный звонок">
+            <input type="text" placeholder="+7 (" name="phone">
+            <button class="orange_but">Заказать</button>
+            <p class="pressing pressed">Нажимая на кнопку “Заказать”  вы даёте<br> согласие на обработку <span>персональных данных</span></p>
+            </form>
+        </div>
+    </div>
+  </div>
+</div>
+    <div class="modal fade" id="recall1" tabindex="-1" role="dialog">
   <div class="modal-dialog normal_modal" role="document">
     <div class="modal_wrp">
         <div class="closemod" data-dismiss="modal"><img src="img/close.svg" alt=""></div>

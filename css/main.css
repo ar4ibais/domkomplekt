@@ -487,7 +487,7 @@ h1 img {
     transform: rotate(7.25deg);
     height: 32px;
     white-space: nowrap;
-    margin-top: 150px;
+    margin-top: 140px;
     margin-left: -50px;
 }
 
@@ -1930,7 +1930,7 @@ input {
     background-repeat: no-repeat;
     background-position: top center;
     min-height: 2599px;
-    margin-top: -118px;
+    margin-top: -205px;
     padding-top: 205px;
     position: relative;
 }
@@ -3523,7 +3523,7 @@ header .container {
 }
 
 .fixMe {
-    padding: 10px 0;
+    padding: 5px 0;
     background-color: #fff;
     -webkit-box-shadow: 1px 11px 66px rgb(29 29 29 / 6%);
     box-shadow: 1px 11px 66px rgb(29 29 29 / 12%);
