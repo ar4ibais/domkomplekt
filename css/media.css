@@ -796,12 +796,12 @@ ul.soc_list {
         box-shadow: 1px 11px 6px rgb(29 29 29 / 12%);
     }
     header {
-        padding: 0
+        padding: 10px
     }
     .head_flex {
         -webkit-transition: 0.3s;
         transition: 0.3s;
-        padding: 20px 0
+        padding: 15px 0
     }
     .fixMe .head_flex {
         padding: 15px 0
@@ -1008,6 +1008,7 @@ p.type_lbl {
 
 .hydro_section h2 {
     font-size: 30px;
+    margin-top: -30px;
 }
 
 .over_case_wrp {
@@ -1106,6 +1107,11 @@ p.tarif_ttle {
 
 .result_section h2 {
     font-size: 28px;
+    margin-top: -60px;
+}
+
+.result2_title {
+    margin-top: 20px;
 }
 
 .result_section h2 i {
@@ -1132,6 +1138,7 @@ p.tarif_ttle {
 
 .auto_poliv h2 {
     font-size: 34px;
+    margin-top: -10px;
 }
 
 .auto_poliv h2 i {
@@ -1294,6 +1301,7 @@ ul.video_links li {
 
 .top_soc li img {
     width: 20px;
+    margin-right: 7px;
 }
 
 ul.top_soc {
@@ -1582,7 +1590,8 @@ ul.top_soc {
     }
     .orange_but--first {
         width: 260px;
-        margin: 77px auto 0;
+        /* margin: 77px auto 0; */
+        margin-top: 125px;
     }
     .text_span1 {
         margin-top: 40px!important;
@@ -1593,12 +1602,24 @@ ul.top_soc {
     }
     .popular__title {
         font-size: 40px;
+        margin-top: -40px;
     }
     .popular__btn-link {
         padding: 19px 80px;
     }
     .application {
         display: none;
+    }
+    .team_section h2 {
+        margin-bottom: -95px!important;
+        margin-top: -20px;
+    }
+    .line_float3,
+    .line_float4 {
+        display: none;
+    }
+    .video_recommendation__list {
+        padding-bottom: 260px;
     }
 }
 
