@@ -337,7 +337,6 @@ h1 img {
 .orange_but--first {
     width: 330px;
     height: 80px;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(-145%, #FFFFFF), color-stop(110%, rgba(255, 255, 255, 0))), -webkit-gradient(linear, right top, left top, color-stop(-89.33%, #FFE24D), color-stop(97%, #FF5631));
     /* background: linear-gradient(180deg, #FFFFFF -145%, rgba(255, 255, 255, 0) 110%), linear-gradient(270deg, #FFE24D -89.33%, #FF5631 97%); */
     background: linear-gradient(180deg, #FFFFFF -145%, rgba(255, 255, 255, 0) 110%), linear-gradient(270deg, #757789 -89.33%, #2E2F37 97%);
     background-blend-mode: overlay, normal;
@@ -350,7 +349,7 @@ h1 img {
     text-transform: uppercase;
     color: #FFFFFF;
     position: relative;
-    transition: all .2s;
+    transition: all .3s;
 }
 
 .orange_but {
@@ -403,11 +402,11 @@ h1 img {
     transition: all .2s;
 }
 .orange_but--first:hover {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(-145%, #FFFFFF), color-stop(110%, rgba(255, 255, 255, 0))), -webkit-gradient(linear, right top, left top, color-stop(-89.33%, #FFE24D), color-stop(97%, #FF5631));
+    /* background: -webkit-gradient(linear, left top, left bottom, color-stop(-145%, #FFFFFF), color-stop(110%, rgba(255, 255, 255, 0))), -webkit-gradient(linear, right top, left top, color-stop(-89.33%, #FFE24D), color-stop(97%, #FF5631)); */
     background: linear-gradient(180deg, #FFFFFF -145%, rgba(255, 255, 255, 0) 110%), linear-gradient(270deg, #FFE24D -89.33%, #FF5631 97%);
     /* background: linear-gradient(180deg, #FFFFFF -145%, rgba(255, 255, 255, 0) 110%), linear-gradient(270deg, #757789 -89.33%, #2E2F37 97%); */
     background-blend-mode: overlay, normal;
-    transition: all .2s;
+    transition: all .3s; 
 }
 
 .header_h {
@@ -1307,6 +1306,7 @@ h2 i {
     z-index: 100;
     left: -130px;
     padding-left: 10px;
+    /* left: -90px; */
 }
 
 .go_next {
@@ -1325,6 +1325,7 @@ h2 i {
     z-index: 100;
     right: -140px;
     padding-right: 10px;
+    /* right: -90px; */
 }
 
 .go_prev:hover,
@@ -2112,18 +2113,20 @@ input {
 .auto_poliv {
     position: relative;
     background-image: url(../img/bg_autopoliv.png);
+    /* background-position: calc(50% + 670px); */
     background-repeat: no-repeat;
     padding-top: 478px;
-    background-position: top center;
+    background-position: center 105px;
     min-height: 1254px;
     margin-top: -1055px;
 }
 .auto_poliv2 {
     position: relative;
     background-image: url(../img/bg_autopoliv.png);
+    /* background-position: calc(50% + 670px); */
     background-repeat: no-repeat;
     padding-top: 478px;
-    background-position: top center;
+    background-position: center 105px;
     min-height: 1254px;
     margin-top: -560px;
 }
@@ -2806,10 +2809,11 @@ input {
     background-repeat: no-repeat;
     /* background-image: url(../img/about_bg.png); */
     background-position: calc(50% - 810px) calc(100% + 25px);
+    margin-bottom: -30px;
 }
 
 .team_section h2 {
-    margin-bottom: -20px;
+    margin-bottom: -120px;
 }
 
 .about_all_wrp {
@@ -3022,6 +3026,7 @@ input {
     max-width: 360px;
     background-color: #3F3F4C;
     position: relative;
+    cursor: default;
 }
 
 .video_recommendation__item::after {
@@ -3036,7 +3041,42 @@ input {
     top: 65px;
     left: 130px;
     z-index: 20;
+    cursor: pointer;
+    transition: all .2s;
 }
+
+.video_recommendation__item:hover::after {
+    position: absolute;
+    content: '';
+    width: 120px;
+    height: 120px;
+    background-image: url(../img/play.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 60px;
+    left: 120px;
+    z-index: 20;
+    cursor: pointer;
+}
+
+/* .play_video {
+    background-image: url(../img/play.png);
+    width: 266px;
+    height: 270px;
+    display: block;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s
+}
+
+.play_video:hover {
+    -webkit-animation: none;
+    animation: none
+} */
 
 .video_recommendation__item--1 {
     background-image: url(../img/recommendation/1.jpg);

@@ -132,10 +132,13 @@
     .poliv2_form1 {
         margin-left: -290px;
     } 
-    .go_next,
     .go_prev {
-        display: none;
+        left: -90px;
     }
+    .go_next {
+        right: -90px;
+    }
+    
 }
 
 @media screen and (max-width:1360px) {
@@ -152,6 +155,12 @@
     .poliv2_form1 {
         margin-left: -290px;
     } 
+}
+@media screen and (max-width:1330px) {
+    .go_next,
+    .go_prev {
+        display: none;
+    }
 }
 
 @media screen and (max-width:1280px) {
