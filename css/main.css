@@ -1333,6 +1333,20 @@ h2 i {
     background-color: #FBBA00;
 }
 
+.slider__case {
+    position: relative;
+}
+
+.case_slider {
+    padding-bottom: 30px;
+}
+
+.first-pagination {
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+}
+
 .swiper-pagination {
     position: relative;
     text-align: center;
@@ -1343,7 +1357,7 @@ h2 i {
     width: 6px;
     height: 6px;
     margin: 0 7px;
-    background: #fff;
+    background: #000;
     opacity: 1;
     vertical-align: middle;
     display: inline-block;
