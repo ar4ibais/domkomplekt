@@ -140,6 +140,7 @@
     }
     .auto_poliv::before {
         left: 75px;
+        top: 250px;
     }
     .plan_flex,
     .poliv2_flex {
@@ -189,6 +190,7 @@
     }
     .auto_poliv::before {
         left: 50px;
+        top: 265px;
     }
     .video__slider {
         display: none;
@@ -1159,6 +1161,9 @@ p.case_lbl {
 .video_recommendation__list {
     display: none;
 }
+.video__slider {
+    margin-bottom: -50px;
+}
 }
 
 
@@ -1675,16 +1680,16 @@ ul.top_soc {
         width: 350px;
     }
     .recommendation__img {
-        height: 310px;
+        height: 250px;
         width: 350px;
     }
     .recommendation__link::after {
         left: 470px;
-        top: 100px;
+        top: 70px;
     }
     .recommendation__link:hover:after {
         left: 450px;
-        top: 80px;
+        top: 60px;
     }
     .video_recommendation__list {
         display: none;
@@ -1737,11 +1742,17 @@ ul.top_soc {
     .open_nav img {
         margin-left: 10px;
     }
+    section.auto_poliv {
+        margin-bottom: -166px!important;
+    }
     .result_section h2 {
-        margin-top: -20px;
+        margin-top: 15px;
     }
     .auto_poliv2 {
         display: none;
+    }
+    .hydro_types {
+        margin-bottom: -140px!important;
     }
     .result2 {
         margin-bottom: -150px!important;
@@ -1806,6 +1817,9 @@ ul.top_soc {
     }
     .video_recommendation__list {
         display: none;
+    }
+    .video__slider {
+        margin-bottom: -70px;
     }
 }
 
@@ -1884,24 +1898,24 @@ ul.top_soc {
         width: 270px;
     }
     .recommendation__img {
-        height: 200px;
+        height: 170px;
         width: 270px;
     }
     .recommendation__link::after {
         height: 70px;
         width: 70px;
         left: 375px;
-        top: 70px;
+        top: 60px;
     }
     .recommendation__link:hover:after {
         height: 90px;
         width: 90px;
         left: 365px;
-        top: 60px;
+        top: 50px;
     }
     .video__slider {
         margin-left: 180px;
-        margin-bottom: -30px;
+        margin-bottom: -65px;
     }
     .video_recommendation__list {
         display: none;

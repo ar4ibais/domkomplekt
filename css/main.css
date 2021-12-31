@@ -1908,7 +1908,7 @@ input {
     background-repeat: no-repeat;
     background-position: top center;
     min-height: 2599px;
-    margin-top: -205px;
+    margin-top: -270px;
     padding-top: 205px;
     position: relative;
 }
@@ -2192,7 +2192,7 @@ input {
     pointer-events: none;
     position: absolute;
     left: 165px;
-    top: 295px;
+    top: 245px;
     /* width: 100%; */
     width: 705px;
     height: 100%;
