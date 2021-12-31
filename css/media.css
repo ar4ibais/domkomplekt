@@ -119,10 +119,6 @@
     .cont_top {
         padding-left: 106px;
     }
-    /* .auto_poliv::before, 
-    .auto_poliv2::before {
-        display: none;
-    } */
     .auto_poliv::before {
         left: 75px;
     }
@@ -151,10 +147,6 @@
 }
 
 @media screen and (max-width:1360px) {
-    /* .auto_poliv::before, 
-    .auto_poliv2::before {
-        display: none;
-    } */
     .plan_flex,
     .poliv2_flex {
         padding-left: 0px;
@@ -354,14 +346,6 @@ p.mars_green {
     .poliv2_form1 {
         margin-left: -315px;
     } 
-    /* .video_recommendation__item {
-        width: 300px;
-    } */
-    /* .auto_poliv::before {
-        left: 10px;
-        width: 50%;
-        height: 50%;
-    } */
 }
 
 @media screen and (max-width:991px) {
@@ -1092,10 +1076,6 @@ p.type_lbl {
     height: auto;
 }
 
-/* .video_area_flex h2, .video_area_flex h2 i {
-    color: black;
-} */
-
 .hydro_section h2 i {
     display: block;
     border: none;
@@ -1605,11 +1585,6 @@ ul.top_soc {
     .drawing_area {
 	display: none
 }
-    
-/* .about_img1 {
-    height: 250px;
-    width: 180px;
-} */
     .case_num_ttle {
     font-size: 14px;
     height: 60px;
