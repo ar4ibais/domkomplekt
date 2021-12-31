@@ -1430,11 +1430,33 @@
                         и объясняем многие нюансы строительства
                     </p>
                 </div>
-                <div class="video_recommendation__list">
+                <div class="swiper-container case_slider video__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=fR1yv5et2h8&t=1s" data-fancybox target="_blank" class="recommendation__link">
+                                <img class="recommendation__img" src="img/recommendation/1.jpg" alt="video">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=4KQx4h90ROQ" data-fancybox target="_blank" class="recommendation__link">
+                                <img class="recommendation__img" src="img/recommendation/2.jpg" alt="video">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=SFUfysbQl1I" data-fancybox target="_blank" class="recommendation__link">
+                                <img class="recommendation__img" src="img/recommendation/3.jpg" alt="video">
+                            </a>
+                        </div>
+                        
+                    </div><div class="swiper-pagination"></div>
+                    <div class="go_prev"></div>
+                    <div class="go_next"></div>
+                </div>
+                <!-- <div class="video_recommendation__list">
                     <a href="https://www.youtube.com/watch?v=fR1yv5et2h8&t=1s" data-fancybox target="_blank" class="video_recommendation__item video_recommendation__item--1"></a>
                     <a href="https://www.youtube.com/watch?v=4KQx4h90ROQ" data-fancybox target="_blank" class="video_recommendation__item video_recommendation__item--2"></a>
                     <a href="https://www.youtube.com/watch?v=SFUfysbQl1I" data-fancybox target="_blank" class="video_recommendation__item video_recommendation__item--3"></a>
-                </div>
+                </div> -->
             </div>
             
             
@@ -1600,7 +1622,7 @@
             
         <div class="quiz_controls">
             <a href="" class="quiz_prev"><img src="img/prevb.svg" alt="">Назад</a><a href="" class="quiz_next"><span class="next_text">Далее</span><img src="img/nextb.svg" alt=""></a>
-            <button class="orange_but send_quiz">Отправить</button>
+            <button class="orange_but send_quiz" data-toggle='modal' data-target='#thanks'>Отправить</button>
         </div>
         </div>
     </div>
@@ -1647,7 +1669,7 @@
             <form>
                 <input type="hidden" name="wf" class="ordered_item">
             <input type="text" placeholder="+7 (" name="phone">
-            <button class="orange_but">Заказать</button>
+            <button class="orange_but" data-toggle='modal' data-target='#thanks'>Заказать</button>
             <p class="pressing pressed">Нажимая на кнопку “Заказать”  вы даёте<br> согласие на обработку <span>персональных данных</span></p>
             </form>
         </div>

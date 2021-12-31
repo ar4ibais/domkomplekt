@@ -1370,6 +1370,29 @@ h2 i {
     border: 3px solid #FBBA00;
 } */
 
+.swiper-pagination {
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.swiper-pagination > span {
+    width: 6px;
+    height: 6px;
+    margin: 0 7px;
+    background: #000;
+    opacity: 1;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.swiper-pagination > span.swiper-pagination-bullet-active {
+    background-color: transparent;
+    width: 22px;
+    height: 22px;
+    border: 3px solid #FBBA00;
+}
+
 .hydro_section {
     position: relative;
     z-index: 100;
@@ -3007,6 +3030,58 @@ input {
     margin-top: -65px;
 }
 
+.video__slider {
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 760px;
+}
+
+.video-pagination {
+    margin-top: 40px;
+}
+
+.recommendation__img {
+    width: 760px;
+    height: 500px;
+    position: relative;
+}
+
+.recommendation__link {
+    cursor: default;
+}
+
+.recommendation__link::after {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-image: url(../img/play.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 20;
+    cursor: pointer;
+    transition: all .2s;
+    left: 1100px;
+    top: 200px;
+}
+.recommendation__link:hover:after {
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-image: url(../img/play.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 20;
+    cursor: pointer;
+    transition: all .2s;
+    left: 1080px;
+    top: 200px;
+    transition: all .2s;
+}
+
 .video_recommendation__span {
     color: red;
 }
@@ -3035,13 +3110,13 @@ input {
     /* padding-bottom: 380px; */
 }
 
-.video_recommendation__item {
+/* .video_recommendation__item {
     height: 228px;
     max-width: 360px;
     background-color: #3F3F4C;
     position: relative;
     cursor: default;
-}
+} */
 
 .video_recommendation__item::after {
     position: absolute;

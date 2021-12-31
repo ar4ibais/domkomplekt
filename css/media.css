@@ -855,6 +855,24 @@ ul.top_list li {
     }
 }
 
+@media screen and (max-width:830px) {
+    .video__slider {
+        width: 500px;
+    }
+    .recommendation__img {
+        height: 310px;
+        width: 500px;
+    }
+    .recommendation__link::after {
+        left: 700px;
+        top: 100px;
+    }
+    .recommendation__link:hover:after {
+        left: 680px;
+        top: 80px;
+    }
+}
+
 @media screen and (max-width:768px) {
     .bg-image {
         margin-bottom: -215px;
@@ -1618,6 +1636,24 @@ ul.top_soc {
     display: none;
 }
 
+@media screen and (max-width:560px) {
+    .video__slider {
+        width: 350px;
+    }
+    .recommendation__img {
+        height: 310px;
+        width: 350px;
+    }
+    .recommendation__link::after {
+        left: 470px;
+        top: 100px;
+    }
+    .recommendation__link:hover:after {
+        left: 450px;
+        top: 80px;
+    }
+}
+
 
 @media screen and (max-width:480px) {
     .popular__items {
@@ -1804,7 +1840,29 @@ ul.top_soc {
     .hydro_section {
         margin-top: -50px!important;
     }
-    
+    .video__slider {
+        width: 270px;
+    }
+    .recommendation__img {
+        height: 200px;
+        width: 270px;
+    }
+    .recommendation__link::after {
+        height: 70px;
+        width: 70px;
+        left: 430px;
+        top: 70px;
+    }
+    .recommendation__link:hover:after {
+        height: 90px;
+        width: 90px;
+        left: 420px;
+        top: 60px;
+    }
+    .video__slider {
+        margin-left: 180px;
+        margin-bottom: -30px;
+    }
 }
 
 @media screen and (max-width:320px) {
