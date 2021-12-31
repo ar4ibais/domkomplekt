@@ -1680,16 +1680,16 @@ ul.top_soc {
         width: 350px;
     }
     .recommendation__img {
-        height: 250px;
+        height: 210px;
         width: 350px;
     }
     .recommendation__link::after {
         left: 470px;
-        top: 70px;
+        top: 55px;
     }
     .recommendation__link:hover:after {
         left: 450px;
-        top: 60px;
+        top: 45px;
     }
     .video_recommendation__list {
         display: none;
@@ -1837,6 +1837,10 @@ ul.top_soc {
     .orange_but--first {
         margin-left: 0;
     }
+    /* .recommendation__img {
+        height: 150px;
+        width: 270px;
+    } */
 }
 
 @media screen and (max-width:406px) {
