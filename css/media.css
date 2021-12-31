@@ -180,7 +180,7 @@
         margin-left: 100px;
     } 
     .popular__more {
-        font-size: 20px!important;
+        font-size: 16px!important;
     }
     .compare_title {
         margin-top: -20px;
@@ -1848,6 +1848,12 @@ ul.top_soc {
         right: 20px;
     }
 } 
+
+@media screen and (max-width:386px) {
+    .first-pagination {
+        right: 10px;
+    }
+}
 
 @media screen and (max-width:375px) {
     .h1 {
