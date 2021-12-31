@@ -1,3 +1,9 @@
+@media screen and (min-width:1920px) {
+    .map_img img {
+        max-width: 120%;
+    }
+} 
+
 @media screen and (max-width:1920px) {
     .intro_section {
         padding-top: 180px;
@@ -11,6 +17,10 @@
     .intro_section.vis::before {
         bottom: 0px;
     }
+    .video__slider {
+        display: none;
+    }
+    
 }
 
 @media screen and (min-height:1200px) {
@@ -18,6 +28,9 @@
         padding-top: 220px;
         padding-bottom: 370px;
         position: relative;
+    }
+    .video__slider {
+        display: none;
     }
 }
 
@@ -27,6 +40,9 @@
     }
     .cont_area_top {
     width: 484px;
+    }
+    .video__slider {
+        display: none;
     }
 }
 @media screen and (max-width:1530px) {
@@ -38,6 +54,9 @@
 }
     .logo img {
         max-width: 230px;
+    }
+    .video__slider {
+        display: none;
     }
 }
 @media screen and (max-width:1440px) {
@@ -143,6 +162,9 @@
     .application__btn {
         padding: 20px 30px;
     }
+    .video__slider {
+        display: none;
+    }
     
 }
 
@@ -168,10 +190,16 @@
     .auto_poliv::before {
         left: 50px;
     }
+    .video__slider {
+        display: none;
+    }
 }
 @media screen and (max-width:1330px) {
     .go_next,
     .go_prev {
+        display: none;
+    }
+    .video__slider {
         display: none;
     }
 }
@@ -185,6 +213,9 @@
     }
     .poliv2_form1 {
         margin-left: 135px;
+    }
+    .video__slider {
+        display: none;
     }
 }
 
@@ -307,6 +338,9 @@ p.mars_green {
     .top_list a::after {
         bottom: -2px
     }
+    .video__slider {
+        display: none;
+    }
 }
 
 @media screen and (max-width:1024px) {
@@ -346,9 +380,15 @@ p.mars_green {
     .poliv2_form1 {
         margin-left: -315px;
     } 
+    .video__slider {
+        display: none;
+    }
 }
 
 @media screen and (max-width:991px) {
+    .video__slider {
+        display: block;
+    }
     .bg-image {
         margin-bottom: -215px;
     }
@@ -837,6 +877,9 @@ ul.top_list li {
     .open_nav img {
         width: 40px;
     }
+    .video__slider {
+        display: none;
+    }
 }
 
 @media screen and (max-width:830px) {
@@ -855,9 +898,15 @@ ul.top_list li {
         left: 680px;
         top: 80px;
     }
+    .video__slider {
+        display: none;
+    }
 }
 
 @media screen and (max-width:768px) {
+    .video__slider {
+        display: block;
+    }
     .bg-image {
         margin-bottom: -215px;
     }
@@ -910,6 +959,9 @@ ul.top_list li {
     .video_recommendation__subtitle {
         margin-bottom: -30px;
     }
+    .video_recommendation__list {
+        display: none;
+    }
 }
 
 @media (max-height:1024px) and (max-width:768px) {
@@ -959,6 +1011,9 @@ ul.top_list li {
     }
     .h1 {
         margin-top: 90px;
+    }
+    .video_recommendation__list {
+        display: none;
     }
 }
 
@@ -1100,6 +1155,9 @@ p.case_lbl {
 
 .bef_after {
     height: 100px;
+}
+.video_recommendation__list {
+    display: none;
 }
 }
 
@@ -1611,6 +1669,7 @@ ul.top_soc {
     display: none;
 }
 
+
 @media screen and (max-width:560px) {
     .video__slider {
         width: 350px;
@@ -1626,6 +1685,9 @@ ul.top_soc {
     .recommendation__link:hover:after {
         left: 450px;
         top: 80px;
+    }
+    .video_recommendation__list {
+        display: none;
     }
 }
 
@@ -1742,6 +1804,9 @@ ul.top_soc {
         height: 22px;
         border: 3px solid #FBBA00;
     }
+    .video_recommendation__list {
+        display: none;
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -1825,18 +1890,21 @@ ul.top_soc {
     .recommendation__link::after {
         height: 70px;
         width: 70px;
-        left: 430px;
+        left: 375px;
         top: 70px;
     }
     .recommendation__link:hover:after {
         height: 90px;
         width: 90px;
-        left: 420px;
+        left: 365px;
         top: 60px;
     }
     .video__slider {
         margin-left: 180px;
         margin-bottom: -30px;
+    }
+    .video_recommendation__list {
+        display: none;
     }
 }
 
@@ -1875,5 +1943,8 @@ ul.top_soc {
     }
     .application__title {
         font-size: 16px;
+    }
+    .video_recommendation__list {
+        display: none;
     }
 }

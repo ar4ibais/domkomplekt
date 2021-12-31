@@ -3046,6 +3046,13 @@ input {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
 }
+.video_recommendation__item {
+    height: 228px;
+    max-width: 360px;
+    background-color: #3F3F4C;
+    position: relative;
+    cursor: default;
+}
 
 .video_recommendation__item::after {
     position: absolute;
